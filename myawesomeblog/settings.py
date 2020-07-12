@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition, Сюда должны добавить созданные нами приложения, а затем сделать makemigrations
 
 INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
     'events.apps.EventsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
